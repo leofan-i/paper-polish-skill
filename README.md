@@ -1,6 +1,6 @@
 # paper-polish
 
-A Claude Code skill that makes AI-drafted research papers read as if their authors wrote them, and keeps every claim checkable.
+A Claude Code skill that helps research-paper drafts avoid common AI-draft anti-patterns and keep every claim checkable.
 
 AI drafts of papers share the same tells. Sentences chain clauses with "and", define things by what they are not, end on punchy fragments, stack hedges and set up colon reveals. Claims sound right but rest on no record. As a paper evolves, the draft also drifts: an "every" stops being true, a number no longer recomputes, and details pile up that no conclusion needs. paper-polish gives Claude 39 one-line rules that catch these problems, so it drafts and edits like a careful co-author.
 
