@@ -60,6 +60,7 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Every derived number must recompute from the printed inputs and the stated formula.
 - A caption says what the figure shows and how to read it.
 - Don't repeat table rows in prose. State the result and its mechanism.
+- Cite each table, figure, section or appendix once per section, where it backs a claim. Don't point back to text the reader just read, and check that each target holds what the sentence says.
 
 ## Proposing edits
 - When the author asks about wording, answer and propose a rewrite; change the text only when asked.

@@ -2,7 +2,7 @@
 
 A Claude Code skill that helps research-paper drafts avoid common AI-draft anti-patterns and keep every claim checkable.
 
-AI-drafted papers often share the same problems: sentences chained with "and", claims framed by what something is not, stacked hedges, and claims with no source behind them. As a draft changes, its scope words, numbers and details also fall out of sync with the results. paper-polish gives Claude 48 one-line rules to avoid these problems and to check each claim against its source.
+AI-drafted papers often share the same problems: sentences chained with "and", claims framed by what something is not, stacked hedges, and claims with no source behind them. As a draft changes, its scope words, numbers and details also fall out of sync with the results. paper-polish gives Claude 49 one-line rules to avoid these problems and to check each claim against its source.
 
 What it covers:
 
