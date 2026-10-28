@@ -22,6 +22,9 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - No rhetorical tails, punchy fragments, editorial labels, meta narration or emphatic adverbs.
 - Use colons for lists and explanations, not for dramatic reveals.
 - No bold for emphasis. Italicize a term only at its first definition.
+- Use plain words. Replace coined phrases and wordplay with what they mean.
+- Don't give code or checks human verbs ("knows", "decides", "says"); name the mechanism.
+- Check an unusual word against the venue's papers before using it.
 
 ## Paragraphs and sections
 - Open each section with its purpose. Give context before the claim.
@@ -32,11 +35,14 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Use run-in headings only for parallel items a reader scans. Drop them on single paragraphs.
 - Keep each list item self-contained.
 - Cut asides the reader already knows.
+- In a design section, present the core idea first and give each headline component its own subsection. Put protocol details after the parts they serve.
+- Keep the contribution list near the venue's norm; measure a few published lists first.
 
 ## Terms
 - Name things by function, not by internal labels.
 - Name and order parallel items the same way everywhere.
 - Define a term once, at first use. Skip definitions the text never needs.
+- Give each quantity one name. After defining it, use only that name.
 
 ## Content and accuracy
 - Report the final system and what supports the argument. Leave development history out. Move supporting detail to the appendix.
@@ -46,6 +52,9 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - State a statistic's population, period and counting rule.
 - Attribute an effect only to what you measured.
 - In the abstract, use one number per distinct claim.
+- Across the main text, give each claim one number, the one its figure or table shows. Put alternative baselines in the appendix.
+- Give each quantity one format throughout (percent or multiple).
+- Before cutting a sentence, check what it supports elsewhere in the paper.
 - Write each contribution as what it is, what is new against prior work, then the evidence. Keep limitations out of the contribution list. For an industry track, name the deployment.
 
 ## Tables and figures
@@ -58,6 +67,11 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Place each table or figure right after the paragraph that first cites it.
 - Use one counting unit consistently in the table, caption and text.
 - Every derived number must recompute from the printed inputs and the stated formula.
+- A column means the same thing in every row. Report outcomes as "x of n" rather than counts whose meaning changes by row, and drop group rows that only state the obvious.
+- Plot the statistic the text and tests use, or mark it in the figure.
+- Give the system one color in every figure, and check the palette for color-blind readers.
+- Render each figure at its printed width so font sizes match across figures. Keep figure text at least 6 pt in print and lines at least 0.5 pt.
+- Use the same spacing between every figure and its caption.
 - A caption says what the figure shows and how to read it.
 - Don't repeat table rows in prose. State the result and its mechanism.
 - Cite each table, figure, section or appendix once per section, where it backs a claim. Don't point back to text the reader just read, and check that each target holds what the sentence says.
@@ -68,4 +82,6 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Raise only issues a reviewer would notice or that hurt credibility. Say when an item barely matters.
 - Before calling a word inflated, check whether the venue's papers use it.
 - At a page limit, propose same-length rewrites. To save a line, cut a few words from a paragraph whose last line holds only one or two words.
+- Fix readability first and trim for space afterwards, by cutting repetition rather than compressing sentences again.
+- Don't leave a paragraph's last line alone at the top of a page or column; trim a few words.
 - Verify each reported issue against the source before raising it.
