@@ -25,6 +25,8 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Use plain words. Replace coined phrases and wordplay with what they mean.
 - Don't give code or checks human verbs ("knows", "decides", "says"); name the mechanism.
 - Check an unusual word against the venue's papers before using it.
+- Don't repeat a verb across adjacent clauses or sentences ("depends ... depends"). Vary it or merge the sentences.
+- Before calling another tool's setting "common" or "standard", check its defaults and docs.
 
 ## Paragraphs and sections
 - Open each section with its purpose. Give context before the claim.
@@ -37,12 +39,20 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Cut asides the reader already knows.
 - In a design section, present the core idea first and give each headline component its own subsection. Put protocol details after the parts they serve.
 - Keep the contribution list near the venue's norm; measure a few published lists first.
+- In the opening paragraph, state scale and stakes precisely, separate what the system must choose from what is given, show why the choices are hard with one or two concrete trade-offs, then current practice and its cost. Keep citations out of it; cite where a concept is named.
+- Model an opening or related-tools paragraph on the closest papers' structure, but never reuse their sentences.
+- When surveying existing tools, open with the problem, credit each category before its limitation, and make the limitations cover every gap your system addresses.
+- Support a motivating observation with evidence from where it was observed, not from an ablation of your own system. Give the evidence before the conclusion.
+- Leave ablations out of the introduction.
+- In a design section, describe the system's defaults. Put protocol used only for the evaluation in the evaluation setup, and check the released code rather than an old copy.
 
 ## Terms
 - Name things by function, not by internal labels.
 - Name and order parallel items the same way everywhere.
 - Define a term once, at first use. Skip definitions the text never needs.
 - Give each quantity one name. After defining it, use only that name.
+- Name a cited system at its first citation, not only inside a citation group.
+- Describe a capability rather than one vendor's tool when the design works with any; name a tool as an example only where a mechanism depends on it.
 
 ## Content and accuracy
 - Report the final system and what supports the argument. Leave development history out. Move supporting detail to the appendix.
@@ -56,6 +66,9 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Give each quantity one format throughout (percent or multiple).
 - Before cutting a sentence, check what it supports elsewhere in the paper.
 - Write each contribution as what it is, what is new against prior work, then the evidence. Keep limitations out of the contribution list. For an industry track, name the deployment.
+- State a fairness condition (same budget, same gate) where it matters: abstract, contributions, setup and each comparison, not in every sentence.
+- Verify every claim about another system against its source. A contrast must hold for every system it covers.
+- Check references with a script against arXiv and Crossref, then check the rest by hand. List every author unless a team byline is the authors' own citation form, cite the peer-reviewed version, and drop access dates once a version is pinned.
 
 ## Tables and figures
 - Put units in headers. Group related columns under one header.
@@ -69,6 +82,9 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Every derived number must recompute from the printed inputs and the stated formula.
 - A column means the same thing in every row. Report outcomes as "x of n" rather than counts whose meaning changes by row, and drop group rows that only state the obvious.
 - Plot the statistic the text and tests use, or mark it in the figure.
+- When comparing means of a few runs, report mean ± standard deviation.
+- Don't define in a caption a term only one cell uses; make the cell self-contained.
+- An architecture figure shows inputs and outputs; its labels are names, with details in the caption and text.
 - Give the system one color in every figure, and check the palette for color-blind readers.
 - Render each figure at its printed width so font sizes match across figures. Keep figure text at least 6 pt in print and lines at least 0.5 pt.
 - Use the same spacing between every figure and its caption.
@@ -81,7 +97,7 @@ Goal: clear, direct, verifiable prose that reads as written by its authors.
 - Show the full rewritten text, then one line per change saying why.
 - Raise only issues a reviewer would notice or that hurt credibility. Say when an item barely matters.
 - Before calling a word inflated, check whether the venue's papers use it.
-- At a page limit, propose same-length rewrites. To save a line, cut a few words from a paragraph whose last line holds only one or two words.
+- Never write to a length: propose the best sentence, then trim in a separate pass by removing details no conclusion depends on. To save a line, cut a few words from a paragraph whose last line holds only one or two words.
 - Fix readability first and trim for space afterwards, by cutting repetition rather than compressing sentences again.
 - Don't leave a paragraph's last line alone at the top of a page or column; trim a few words.
 - Verify each reported issue against the source before raising it.
